@@ -1,0 +1,6 @@
+(library
+ (name jay)
+ (public_name jay)
+ (libraries containers)
+ (preprocess
+  (pps ppx_deriving.show)))
